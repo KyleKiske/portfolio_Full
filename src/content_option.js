@@ -1,60 +1,54 @@
 const logotext = "Dmitri";
 const meta = {
     title: "Dmitri Romanov",
-    description: "I’m Dmitri Romanov - Full stack developer, currently not working.",
+    description: "I'm Dmitri Romanov - Full stack developer, currently not working.",
 };
 
 const introdata = {
-    title: "I’m Dmitri Romanov",
+    title: "I'm Dmitri Romanov",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I code websites, simple as.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    your_img_url: "https://scontent.ftlv1-1.fna.fbcdn.net/v/t39.30808-6/405753103_6811610605626983_5835539417968733182_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Gt-mzLorsZIAX-bRndU&_nc_ht=scontent.ftlv1-1.fna&oh=00_AfC0btvGW3wnItqjVlVp1yvG0djpd1e83kOBZNsxppH88A&oe=65663EA8",
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "A bit about myself",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Automatic Quality Assurance Engineer",
+        where: "Moscow, Russia",
+        date: "2020 - 2022",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    {
+        name: "Java"
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Spring Framework"
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "JUnit"
     },
     {
-        name: "React",
-        value: 60,
+        name: "Python"
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Django"
+    },
+    {
+        name: "Javascript"
+    },
+    {
+        name: "React"
+    },
+    {
+        name: "MaterialUI"
     },
 ];
 
@@ -63,19 +57,19 @@ const services = [{
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Mobile Apps",
+        title: "Automatic Quality Assurance",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Wordpress Design",
+        title: "Backend development",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        description: "Olim helper",
+        link: "https://olim-helper.onrender.com/login",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
@@ -147,10 +141,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/KyleKiske",
+    facebook: "https://www.facebook.com/tovarishchgood/",
+    linkedin: "https://www.linkedin.com/in/dmitrii-romanov-665848256/",
 };
 export {
     meta,
